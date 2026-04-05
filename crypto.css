@@ -44,3 +44,33 @@ body {
     
 }
 
+.side-bar li { 
+    height:60px;
+    display:flex;
+    background:var(--background-color);
+    align-items:center;
+    border-radius:4px;
+}
+
+.side-bar li i{ 
+    min-width:50px;
+    font-size:1.6rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.main input { 
+    height:100%;
+    width:100%;
+    background:none;
+    outline:none;
+    border:none;
+    padding-right:15px;
+
+}
+
+.main input::placeholder { 
+    color:black;
+}
+
