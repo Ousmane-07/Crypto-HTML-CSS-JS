@@ -28,6 +28,8 @@ body.dark {
     --container-color:rgb(83, 83, 83);
 }
 
+/* NAV BAR */
+
 header { 
     margin-bottom:20px;
 }
@@ -206,6 +208,45 @@ body.dark .switch::before {
 
 
 
+/* NAV BAR ENDS */
+
+/* GRID BEGINS */
+
+.grid-section { 
+    margin-left:260px;
+    padding: 40px;
+
+}
+
+.grid-container { 
+    background:var(--side-bar-color);
+    padding:20px;
+    border-radius:10px;
+}
+
+.grid-header-section { 
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-list-item { 
+    display:flex;
+}
+
+.header-list-item .grid-list-item { 
+    list-style:none;
+    margin-left:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:10px;
+}
+
+.grid-list-item:first-child { 
+    border-right:1px solid var(--font-color);
+    padding-right:20px;
+}
 
 
 
